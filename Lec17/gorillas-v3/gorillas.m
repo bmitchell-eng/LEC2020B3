@@ -63,11 +63,11 @@ clear
 % Setting up the parameters
 first = 25;
 step = 25;
-count = 15;
+count = numBuildings;
 buildingWidth = 20;
 minH = 100;
 maxH = 200;
-xmax = 400;
+xmax = numBuildings*(step+2);
 ymax = 400;
 
 % Generating x and y vectors for the bar chart
